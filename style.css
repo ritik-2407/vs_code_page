@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    height: 110%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to top, rgba(13, 17, 23, 1), rgba(13, 17, 23, 0.3)), url(https://media.istockphoto.com/id/1695338331/video/retro-crt-monitor-binary-code-technology-background.jpg?s=640x640&k=20&c=St6EFFiTUAtN7aW5qBhOuNgTsglnA-QQa4HjuDOxm-8=);
+
+}
+
+h2 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h3 {
+    color: #ffffff;
+}
+
+p {
+    color: #ffffff;
+}
+
+.navbar {
+    background: linear-gradient(to bottom, rgba(13, 17, 23, 1), rgba(13, 17, 23, 0.5));
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    box-sizing: border-box;
+   
+}
+.logo{
+     img{
+        width: 50px;
+        height: auto;
+    }
+    display: flex;
+    h2{
+        margin-top: 10px;
+    }
+    
+}
+
+.rightside {
+    display: flex;
+    margin: 10px;
+    gap: 40px;
+    margin-left: 145px;
+    transition: transform 0.4s ease-in-out;
+    transition: 0.3s ease;
+
+    a {
+        display: inline-block;
+        text-decoration: none;
+        color: rgb(217, 217, 217);
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: bold;
+    }
+
+
+}
+
+.rightside a:hover {
+    color: #1692ff;
+    cursor: pointer;
+    transform: scale(1.20);
+
+
+}
+
+input {
+    color: aliceblue;
+    background-color: #0d1117;
+    border-radius: 8px;
+    border-width: 1px;
+    height: 35px;
+    width: 250px;
+    border: 2px solid grey;
+    outline: none;
+    border-color: rgb(61, 61, 61);
+    margin-right: 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-left: 10px;
+}
+
+input:hover {
+    color: white;
+
+
+    border: 2px solid white;
+}
+
+.button_1 {
+    background-color: #1692ff;
+    color: aliceblue;
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 2px solid #1692ff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    transition: 0.3s ease;
+}
+
+.button_1:hover {
+    color: #1692ff;
+    background-color: #0d1117;
+    cursor: pointer;
+    transform: scale(1.10);
+
+}
+
+.section_2 {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 30px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section_3 {
+    display: flex;
+    justify-content: center;
+    
+    img{
+        width: 25px;
+        height: auto;
+    }
+}
+
+.button_2 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    border: none;
+    padding-bottom: 12px;
+    padding-top: 8px;
+    width: 290px;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: large;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    transition: 0.3 ease;
+    transition: transform 0.3s ease;
+
+}
+
+.button_2:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px #ffffff,
+        0 0 20px #ffffff,
+        0 0 30px #ffffff;
+    background-color: #ffffff;
+    transform: scale(1.05);
+}
+
+.section_4 {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.image_1 {
+    width: 1280pxx;
+    height: 700px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+
+}
+
+.bottom {
+    background-color: #0d1117;
+}
+
+.section_5 {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
+    gap: 40px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    h2 {
+        color: #ffffff;
+        font-size: 40px;
+    }
+
+    p {
+        font-weight: 500px;
+    }
+
+    a {
+        color: #1692ff;
+        font-weight: 300;
+    }
+}
+
+.section_5 img {
+    width: 800px;
+    height: 570px;
+    transition: transform 0.3s ease;
+
+}
+
+.info_5 {
+    padding-top: 100px;
+    transition: transform 0.3s ease;
+
+}
+
+.section_6 {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
+    gap: 40px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    h2 {
+        color: #ffffff;
+        font-size: 40px;
+    }
+
+    p {
+        font-weight: 500px;
+    }
+
+    a {
+        color: #1692ff;
+        font-weight: 300;
+    }
+}
+
+.section_6 img {
+    width: 800px;
+    height: 430px;
+    transition: transform 0.3s ease;
+
+}
+
+.info_6 {
+    padding-top: 70px;
+}
+
+.section_7 {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 50px;
+    gap: 40px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    h2 {
+        color: #ffffff;
+        font-size: 40px;
+    }
+
+    p {
+        font-weight: 500px;
+    }
+
+    a {
+        color: #1692ff;
+        font-weight: 300;
+    }
+}
+
+.section_7 img {
+    width: 800px;
+    height: 430px;
+    transition: transform 0.3s ease;
+
+}
+
+.info_7 {
+    padding-top: 70px;
+}
+
+.section_8 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #1d2634;
+    display: flex;
+    justify-content: center;
+    font-weight: 500px;
+    color: #ffffff;
+}
+
+.section_5 a:hover {
+    color: #ffffff;
+}
+
+.section_6 a:hover {
+    color: #ffffff;
+}
